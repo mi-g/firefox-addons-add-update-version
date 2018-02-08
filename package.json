@@ -1,0 +1,28 @@
+{
+	"name": "firefox-addons-add-update-version",
+	"version": "1.0.0",
+	"description": "A command line tool to add a Firefox add-on version to the update.json manifest",
+	"main": "updater.js",
+	"engines": {
+		"node": ">=6.0.0",
+		"npm": ">=3.0.0"
+	},  
+	"license": "MPL-2.0",
+	"author": {
+	  "name": "Michel Gutierrez",
+	  "email": "michel.gutierrez@gmail.com",
+	  "url": "https://github.com/mi-g"
+	},
+	"bin": {
+		"faauv": "bin/faauv.js"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/mi-g/firefox-addons-add-update-version.git"
+	},
+	"dependencies": {
+		"mozilla-version-comparator": "^1.0.2",
+		"unzip": "^0.1.11",
+		"yargs": "^10.0.3"
+	}
+}
