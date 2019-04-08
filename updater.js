@@ -12,7 +12,7 @@
 
 const fs = require('fs');
 const argv = require('yargs').argv;
-const unzip = require('unzip');
+const unzip = require('unzip2');
 const crypto = require('crypto');
 const compver = require('mozilla-version-comparator');
 
